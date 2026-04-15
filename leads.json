@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Jo\u00c3\u00a3o",
+        "renda": 8000,
+        "interesse": "alto"
+    },
+    {
+        "nome": "Maria",
+        "renda": 3000,
+        "interesse": "baixo"
+    },
+    {
+        "nome": "Pedro",
+        "renda": 6000,
+        "interesse": "medio"
+    },
+    {
+        "nome": "Ana",
+        "renda": 10000,
+        "interesse": "alto"
+    },
+    {
+        "nome": "Lucas",
+        "renda": 2000,
+        "interesse": "baixo"
+    },
+    {
+        "nome": "Victor",
+        "renda": 7500.0,
+        "interesse": "medio"
+    }
+]
