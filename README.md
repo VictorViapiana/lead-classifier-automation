@@ -55,4 +55,7 @@ python main.py
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-## Developed by Victor Viapiana
+## 📎 Author
+
+## Developed by Victor Viapiana  
+GitHub: https://github.com/VictorViapiana
