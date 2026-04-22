@@ -1,42 +1,58 @@
-# 📊 Sistema de Classificação de Leads
+# 📊 Lead Classification System
+Python-based project developed to automate the analysis and prioritization of commercial leads, reducing manual processing time and increasing sales team efficiency.
 
-Projeto desenvolvido em Python com o objetivo de automatizar a análise e priorização de leads comerciais, reduzindo o tempo de processamento manual e aumentando a eficiência do time de vendas.
+## 🚀 Features
+Lead Ingestion: Reads leads from JSON files (easily adaptable to other sources).
 
-## 🚀 Funcionalidades
+Data Validation: Prevents entry errors and ensures data integrity.
 
-- Leitura de leads a partir de arquivo JSON, podendo ser adaptável a qualquer instante.
-- Validação de dados (evita erros de entrada)
-- Classificação automática de leads:
-  - 🔥 Quente
-  - 🟡 Morno
-  - ❄️ Frio
-- Geração de relatório automático (`resultado.txt`)
-- Sistema interativo via terminal
-- Cadastro de novos leads
+Automated Lead Scoring:
 
-## 💡 Objetivo
+## 🔥 Hot: High priority
 
-Simular um cenário real de operação comercial onde leads são recebidos e precisam ser analisados e priorizados rapidamente.
+## 🟡 Warm: Medium priority
 
-O sistema automatiza essa decisão, permitindo:
+## ❄️ Cold: Low priority
 
-- Redução de erros humanos
-- Aumento de produtividade
-- Priorização eficiente de atendimento
-- Geração de insights para o time comercial
+Report Generation: Automatically generates a results file (resultado.txt).
 
-## 🧠 Lógica de Classificação
+Interactive Terminal: User-friendly command-line interface.
 
-- Alta renda + alto interesse → 🔥 Quente
-- Renda média → 🟡 Morno
-- Baixa renda → ❄️ Frio
+Lead Registration: Ability to register new leads directly through the system.
 
-## 🛠️ Tecnologias
+## 💡 Goal
+To simulate a real-world commercial operation where leads are received and need to be analyzed and prioritized rapidly.
 
-- Python
-- JSON
+The system automates this decision-making process, allowing for:
 
-## ▶️ Como executar
+Reduction of human error.
 
-```bash
+Increased productivity.
+
+Efficient prioritization of high-value prospects.
+
+Generation of actionable insights for sales teams.
+
+## 🧠 Classification Logic
+High Income + High Interest → 🔥 Hot
+
+Average Income → 🟡 Warm
+
+Low Income → ❄️ Cold
+
+## 🛠️ Technologies
+Python: Logic and automation.
+
+JSON: Data persistence and storage.
+
+## ▶️ How to Run
+Clone the repository:
+git clone https://github.com/VictorViapiana/lead-classifier-automation.git
+
+Run the application:
 python main.py
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## Developed by Victor Viapiana
